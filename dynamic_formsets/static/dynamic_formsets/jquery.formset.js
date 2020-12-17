@@ -301,8 +301,6 @@
             postInitialize: null,        // Function called when the formset has been initialized.
         },
         keepFieldValues: '',             // jQuery selector for fields whose values should be kept when the form is cloned
-        added: null,                     // Function called each time a new form is added
-        removed: null,                   // Function called each time a form is deleted
         hideLastAddForm: false           // When set to true, hide last empty add form (becomes visible when clicking on add button)
     };
 })(jQuery);
